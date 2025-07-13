@@ -368,17 +368,7 @@ MIT License - Freedom to innovate, build, and scale for public safety
 Copyright (c) 2025 SafeSpace Team
 ```
 
----
 
-## 🙏 **Acknowledgments**
-
-- **🏛️ Government of India** - For open data APIs and support
-- **🏢 Microsoft India** - For hosting Code for Bharat Season 2
-- **🌐 OpenStreetMap Community** - For geographic data services
-- **👥 Beta Testers** - 500+ users who provided valuable feedback
-- **🎨 Design Inspiration** - Material Design & Human Interface Guidelines
-
----
 
 <div align="center">
   
