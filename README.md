@@ -1,4 +1,4 @@
-# 🛡️ SafeSpace - AI-Powered Threat Intelligence Platform
+# 🛡️ SafeSpace - AI Monitored Safety App
 
 <div align="center">
   <img src="https://img.shields.io/badge/Hackathon-Code%20for%20Bharat%20S2-blue?style=for-the-badge&logo=microsoft" alt="Hackathon Badge" />
@@ -415,14 +415,5 @@ Copyright (c) 2025 SafeSpace Team
   
 </div>
 
----
-
-**🔗 Quick Links:**
-[🚀 Live Demo](https://safespace-demo.vercel.app) | 
-[📊 Analytics Dashboard](https://analytics.safespace.in) | 
-[📱 Mobile App](https://play.google.com/store/apps/safespace) | 
-[🎥 Video Demo](https://youtube.com/watch?v=safespace-demo)
-
----
 
 *Last Updated: January 2025 | Version 2.0.0 | Build Status: ✅ Passing*
