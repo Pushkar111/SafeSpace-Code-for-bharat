@@ -347,23 +347,6 @@ POST /api/notifications/subscribe   // Push notification subscription
 - **📝 Documentation**: JSDoc comments for all functions
 - **🔄 CI/CD**: GitHub Actions for automated testing
 
----
-
-## 🏆 **Awards & Recognition**
-
-<div align="center">
-
-🥇 **Winner - Code for Bharat Season 2**  
-🏆 **Best AI Implementation Award**  
-🌟 **People's Choice Award**  
-💻 **Most Innovative Use of Technology**
-
-*"SafeSpace represents the future of public safety technology in India"*  
-**- Microsoft India Judges Panel**
-
-</div>
-
----
 
 ## 📞 **Contact & Support**
 
@@ -371,16 +354,8 @@ POST /api/notifications/subscribe   // Push notification subscription
 - **Pushkar** - Lead Developer - [GitHub](https://github.com/Pushkar111)
 - **Team SafeSpace** - [Project Repository](https://github.com/Pushkar111/SafeSpace-Code-for-bharat)
 
-### **📧 Get in Touch**
-- **📧 Email**: safespace.team@gmail.com
-- **💬 Discord**: SafeSpace Community Server
-- **🐦 Twitter**: [@SafeSpaceIndia](https://twitter.com/SafeSpaceIndia)
-- **📱 WhatsApp**: +91-XXXXX-XXXXX (Support)
 
-### **🆘 Support Channels**
-- **📖 Documentation**: [docs.safespace.in](https://docs.safespace.in)
-- **🐛 Bug Reports**: [GitHub Issues](https://github.com/Pushkar111/SafeSpace-Code-for-bharat/issues)
-- **💡 Feature Requests**: [Feature Board](https://safespace.canny.io)
+
 
 ---
 
