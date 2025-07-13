@@ -1,0 +1,211 @@
+Q. What is NodeJS ?? 
+-> nodeJS is runtime environment of JS.
+-> We have many js engines in different Browsers
+    ex...
+        chrome  --> v8
+        firefox --> spider monkey
+        safari  --> Apple JS engines
+
+
+-> so, The Devloper ==> Name ==> Ryan Dahl ===> has embedded 
+                                                    |
+                                                    v8 (chrome JS Engine)
+                                                    |
+                                                with C++
+
+-> so this embedding of v8 + cpp is called nodeJS.
+-> JS     ==> client side [Disable by End User]
+-> nodeJS ==> server side [not Disable by End User]
+
+
+
+
+API Parameter Validation 
+-----------------------
+Either in Post API or PUT API
+
+Middleware ---> zodValidationMiddleware(schema)
+validationSchema  
+    userValidationSchema
+
+
+
+
+jwt Token - [jsonwebtoken]
+----------------------------
+How JWT Works 🔄
+
+    Step 1: Login Process
+    ======
+                    User → [email/password] → Server
+                                            ↓
+                                        Verify Credentials
+                                            ↓
+                                        Create JWT accessToken, refreshToken
+                                            ↓
+User ← [JWT accessToken, refreshToken] ← Server
+
+
+    Step 2: Access Protected Routes
+    ======
+        User → [JWT Token in Header] → Server
+                                        ↓
+                                Verify Token Signature
+                                        ↓
+                                Extract User Info
+                                        ↓
+                                Allow/Deny Access
+                                        ↓
+                User ← [Response] ← Server
+
+
+    
+
+
+
+File Uploading 
+--------------
+1. Local Server
+2. Cloud - AWS S3, cloudinary
+
+
+==> FileUploading via Cloudinary 
+
+    Step-1 : Fetch the configuration of cloudinary
+                - cloud_name
+                - cloud_api
+                - cloud_secret
+
+    Step-2 : Create ClodinaryUtil 
+                - cloudinary.config({
+                    cloud_name
+                    cloud_api
+                    cloud_secret
+                })
+
+    Step-3 : also UploadController
+                const upload = multer({
+                    storage
+                })
+
+
+
+
+
+======================================================================
+Redis → inmemory DB
+-----
+
+1. config, queue, worker, job ---> Used to do faster work not wait for the job 
+2. caching  ---> don't call api every time so not load on DB, only first time fetch from DB and put into redis store after that every time when we need then fetch from redis store instead of DB by api call
+3. rateLimitingMiddleware ---> restriction like some api's called only this number of time like that  
+
+
+======================================================================
+Socket.io   →   it is library that is enables real time live bi-directional communication between client and server
+---------
+
+Q. Why it is used ?
+-> Real-time communication :- messages are send instantly 
+-> bi-directional          :- client and server are both messaging and communicate instantly 
+-> Reliable
+-> Auto-reconnection
+-> Room Support
+
+
+Q. Use Cases ?
+-> Chat Application
+-> live notification
+-> real-time analytic
+-> collabrative editing
+-> Gaming Application
+
+
+Q. implimentation
+-> app.js  (entries with http createServer, after that create io instance with CORS, after that app.listen to server.listen)
+-> creates SocketUtil.js
+-> Create a ChatModel
+-> Create a ChatController
+-> Create a ChatRoutes 
+-> Add that ChatRoutes in the app.js 
+
+
+======================================================================
+Implementation Standard Authentication 
+--------------------------------------
+
+| Feature                   | Tools Needed                     | What I’ll Provide If You Want |
+| ------------------------- | -------------------------------- | ----------------------------- |
+| Mobile + Password         | Update route, use `mobile` field | ✅ Login endpoint code         |
+| Email + OTP (send/verify) | `nodemailer`, Redis              | ✅ Send + verify routes        |
+| Mobile + OTP              | `twilio` or mock SMS             | ✅ Send + verify routes        |
+| Google Login              | `passport-google-oauth20`        | ✅ Passport config + routes    |
+
+---
+
+## 📦 1. `passport`
+
+> **Use:** Authentication middleware for Node.js
+> **Why you need it:**
+
+* It’s the standard way to implement **Google login** (and other social logins)
+* Works with **strategies** (Google, Facebook, GitHub, etc.)
+* Helps integrate **Google OAuth2.0** easily in Express apps
+
+✅ You’ll configure it with Google client credentials and let it handle the OAuth handshake.
+
+---
+
+## 📦 2. `passport-google-oauth20`
+
+> **Use:** Google OAuth 2.0 strategy for `passport`
+> **Why you need it:**
+
+* Enables **Google login via Gmail** for your app
+* It’s a plug-and-play module that tells Passport how to interact with Google
+
+✅ You’ll use this to:
+
+* Redirect user to Google login
+* Handle Google’s callback
+* Extract user info (email, name, picture) from the Google profile
+* Issue a JWT after login
+
+---
+
+## 📦 3. `twilio`
+
+> **Use:** Send SMS to mobile numbers (OTP, alerts, etc.)
+> **Why you need it:**
+
+* You want to implement **mobile + OTP login**
+* Twilio allows sending SMS to real mobile numbers programmatically
+
+✅ You’ll use Twilio to:
+
+* Generate a 6-digit OTP
+* Send it to the user’s mobile number
+* Verify the OTP later using Redis (temporary storage)
+
+> 🔐 You’ll need a Twilio account + phone number (free trial gives ₹300–400 credit)
+
+---
+
+## Summary Table
+
+| Package                   | Purpose                   | Used For         |
+| ------------------------- | ------------------------- | ---------------- |
+| `passport`                | Authentication middleware | Google Login     |
+| `passport-google-oauth20` | Google login strategy     | Google Login     |
+| `twilio`                  | SMS sending via API       | Mobile OTP login |
+
+---
+
+
+
+Q. How to implement ?
+1. npm install passport passport-google-oauth20 twilio
+2. OtpUtil
+3. SmsUtil
+4. Update the UserModel for this Field like mobile, isVerified, googleId
+5. Update AuthController
