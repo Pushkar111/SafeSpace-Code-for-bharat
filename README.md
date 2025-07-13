@@ -381,4 +381,4 @@ Copyright (c) 2025 SafeSpace Team
 </div>
 
 
-*Last Updated: January 2025 | Version 2.0.0 | Build Status: ✅ Passing*
+*Last Updated: January 2025 | Version 2.0.0 | Build Status: ✅ Passing *
