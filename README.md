@@ -14,8 +14,6 @@
   <img src="https://img.shields.io/github/last-commit/Pushkar111/SafeSpace-Code-for-bharat" alt="Last Commit" />
 </div>
 
----
-
 ## 🎯 **Problem Statement**
 
 In India's rapidly growing urban landscape, citizens face numerous safety challenges:
@@ -25,8 +23,6 @@ In India's rapidly growing urban landscape, citizens face numerous safety challe
 - **🤝 Community-driven safety reporting** and verification
 
 **SafeSpace** addresses these challenges with an AI-powered, real-time threat intelligence platform that empowers citizens, authorities, and communities to stay safe and informed.
-
----
 
 ## ✨ **Key Features**
 
@@ -59,8 +55,6 @@ In India's rapidly growing urban landscape, citizens face numerous safety challe
 - **Saved Threat Management** with offline access
 - **Notification Preferences** with granular controls
 - **Activity History** and safety score metrics
-
----
 
 ## 🏗️ **Architecture & Tech Stack**
 
@@ -101,7 +95,7 @@ In India's rapidly growing urban landscape, citizens face numerous safety challe
 }
 ```
 
----
+
 
 ## 🚀 **Quick Start Guide**
 
@@ -164,7 +158,6 @@ redis-server
 curl http://localhost:3001/api/health
 ```
 
----
 
 ## 📁 **Project Structure**
 
@@ -200,7 +193,6 @@ SafeSpace-Code-for-bharat/
 └── 📄 .gitignore
 ```
 
----
 
 ## 🔧 **Core Features Deep Dive**
 
@@ -247,14 +239,14 @@ const ModalSystem = {
 }
 ```
 
----
+
 
 ## 📊 **Performance Metrics**
 
 <div align="center">
 
 | Metric | Value | Description |
-|--------|--------|-------------|
+|--|--|-|
 | **🚀 Load Time** | < 2.5s | Initial page load optimization |
 | **⚡ API Response** | < 200ms | Average backend response time |
 | **📱 Mobile Score** | 95/100 | Google PageSpeed mobile performance |
@@ -263,8 +255,6 @@ const ModalSystem = {
 | **🎨 UI Animation** | 60 FPS | Smooth Framer Motion animations |
 
 </div>
-
----
 
 ## 🛡️ **Security Features**
 
@@ -285,7 +275,7 @@ const ModalSystem = {
 - **API Usage Analytics** with rate limit monitoring
 - **Security Audit Logs** for sensitive operations
 
----
+
 
 ## 🌍 **Real-World Impact**
 
@@ -303,7 +293,7 @@ const ModalSystem = {
 > *"As a local authority, SafeSpace gives us unprecedented visibility into emerging threats. Game-changing technology!"*  
 > **- Rajesh Kumar, District Collector, Delhi**
 
----
+
 
 ## 🔄 **API Documentation**
 
@@ -330,8 +320,6 @@ PUT  /api/notifications/settings    // Update notification settings
 POST /api/notifications/subscribe   // Push notification subscription
 ```
 
----
-
 ## 🤝 **Contributing Guidelines**
 
 ### **🌟 How to Contribute**
@@ -352,12 +340,11 @@ POST /api/notifications/subscribe   // Push notification subscription
 
 ### **👨‍💻 Development Team**
 - **Pushkar** - Lead Developer - [GitHub](https://github.com/Pushkar111)
+- **Pranjal** - Team Member - [GitHub](https://github.com/pranjal29092005)
+- **Pawan** - Team Member - [GitHub](https://github.com/Pawan4356)
+- **Parth** - Team Member - [GitHub](https://github.com/parthraninga)
 - **Team SafeSpace** - [Project Repository](https://github.com/Pushkar111/SafeSpace-Code-for-bharat)
 
-
-
-
----
 
 ## 📜 **License**
 
@@ -367,8 +354,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 MIT License - Freedom to innovate, build, and scale for public safety
 Copyright (c) 2025 SafeSpace Team
 ```
-
-
 
 <div align="center">
   
