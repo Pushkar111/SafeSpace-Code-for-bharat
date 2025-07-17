@@ -347,7 +347,7 @@ POST /api/notifications/subscribe   // Push notification subscription
 
 <div align="center">
   
-  **Star this repository if SafeSpace helped make your community safer! **
+  **Star this repository if SafeSpace helped make your community safer!**
   
   <p><em>Built with ❤️ in India 🇮🇳 for a safer tomorrow</em></p>
   
