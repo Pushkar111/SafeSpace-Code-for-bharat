@@ -339,21 +339,18 @@ POST /api/notifications/subscribe   // Push notification subscription
 ## 📞 **Contact & Support**
 
 ### **👨‍💻 Development Team**
-- **Pushkar** - Lead Developer - [GitHub](https://github.com/Pushkar111)
-- **Pranjal** - Team Member - [GitHub](https://github.com/pranjal29092005)
-- **Pawan** - Team Member - [GitHub](https://github.com/Pawan4356)
-- **Parth** - Team Member - [GitHub](https://github.com/parthraninga)
+- **[Pushkar](https://github.com/Pushkar111)** - Lead Developer
+- **[Pranjal](https://github.com/pranjal29092005)** - Team Member
+- **[Pawan](https://github.com/Pawan4356)** - Team Member
+- **[Parth](https://github.com/parthraninga)** - Team Member
 - **Team SafeSpace** - [Project Repository](https://github.com/Pushkar111/SafeSpace-Code-for-bharat)
 
-
-
+<div align="center">
+  
   **🌟 Star this repository if SafeSpace helped make your community safer! 🌟**
   
   <p><em>Built with ❤️ in India 🇮🇳 for a safer tomorrow</em></p>
   
-  <img src="https://img.shields.io/badge/Made%20with-❤️%20in%20India-orange?style=for-the-badge" alt="Made with Love in India" />
-  
 </div>
 
-
-*Last Updated: July 2025 | Version 2.0.0 | Build Status: ✅ Passing *
+*Last Updated: July 2025 | Version 2.0.0*
