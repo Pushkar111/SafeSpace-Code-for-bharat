@@ -16,7 +16,7 @@
 
 ## **Problem Statement**
 
-In India's rapidly growing urban landscape, citizens face numerous safety challenges:
+In India's rapidly growing urban landscape, citizen face numerous safety challenges:
 - **Real-time threat detection**across 150+ monitored cities
 - **Instant emergency response**coordination 
 - **Data-driven safety insights**for better decision making
