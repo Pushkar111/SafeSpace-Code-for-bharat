@@ -346,17 +346,7 @@ POST /api/notifications/subscribe   // Push notification subscription
 - **Team SafeSpace** - [Project Repository](https://github.com/Pushkar111/SafeSpace-Code-for-bharat)
 
 
-## 📜 **License**
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-```
-MIT License - Freedom to innovate, build, and scale for public safety
-Copyright (c) 2025 SafeSpace Team
-```
-
-<div align="center">
-  
   **🌟 Star this repository if SafeSpace helped make your community safer! 🌟**
   
   <p><em>Built with ❤️ in India 🇮🇳 for a safer tomorrow</em></p>
